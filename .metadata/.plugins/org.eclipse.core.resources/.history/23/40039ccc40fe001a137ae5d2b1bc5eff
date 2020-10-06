@@ -1,0 +1,7 @@
+package com.kavishi.boot.services;
+
+public class FindUserImpl implements FindUser {
+	@Override
+	public String FindAllUser() {
+		return null;
+}

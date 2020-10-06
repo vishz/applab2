@@ -1,0 +1,7 @@
+package com.kavishi.boot.services;
+
+public class {
+	@Override
+	public String FindAllUser() {
+		return null;
+}

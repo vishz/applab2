@@ -1,0 +1,20 @@
+package com.kavishi.boot.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.kavishi.boot.services.FindUser;
+
+@RestController
+@RequestMapping("/")
+public class users {
+	@Autowired
+	private FindUser finduser;
+	
+	@GetMapping("/all")
+	public String user() {
+		return finduser.FindAllUser();
+	}
+}

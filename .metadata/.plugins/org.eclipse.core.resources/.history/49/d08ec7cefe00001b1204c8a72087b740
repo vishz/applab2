@@ -1,0 +1,5 @@
+package com.applab.boot.model;
+
+public class User {
+
+}
